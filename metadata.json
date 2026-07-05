@@ -1,0 +1,6 @@
+{
+  "name": "Intelligent Tech Ecosystem",
+  "description": "A unified intelligence dashboard and ecosystem linking live news, product specifications, interactive 3D reviews, real-time comparisons, and Gemini AI hardware assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

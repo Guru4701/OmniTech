@@ -1,0 +1,27 @@
+{
+  "entities": {
+    "Prompt": {
+      "title": "Prompt",
+      "description": "A saved custom AI prompt in the user's prompt library.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "prompt": { "type": "string" },
+        "tags": { 
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "prompt", "tags"]
+    }
+  },
+  "firestore": {
+    "prompts": {
+      "schema": "Prompt",
+      "description": "Collection of saved custom prompts."
+    }
+  }
+}
